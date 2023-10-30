@@ -1,0 +1,25 @@
+@import '1-template/page';
+@import '1-template/container';
+@import '1-template/header';
+@import '1-template/content';
+@import '1-template/footer';
+
+@import '2-components/nav';
+@import '2-components/social';
+@import '2-components/gallery';
+
+@import '3-pages/contacts';
+@import '3-pages/about';
+
+@import '4-sections/welcome';
+@import '4-sections/works';
+
+@import '5-elements/logo';
+@import '5-elements/copyright';
+@import '5-elements/title';
+@import '5-elements/img';
+@import '5-elements/appeal';
+
+@import '6-include/varibles';
+@import '6-include/global';
+@import '6-include/fonts';

@@ -1,0 +1,23 @@
+:root {
+  // COLOR
+  --white: #ffffff;
+  --black: #000000;
+  --grey: #ecf0f1;
+  --dark-grey: #696969;
+
+  --white-rgba: rgba(255, 255, 255, 0.8);
+
+  --theme-color: #2d98da;
+  --theme-accent: #2d98da;
+
+  // FONTS
+  --fonts-regular: Montserrat-Regular, Geneva, Tahoma, sans-serif;
+  --fonts-bold: Montserrat-Bold, Geneva, Tahoma, sans-serif;
+
+  // TRANSITION
+  --transiton: 200ms;
+
+  // BASE
+  --base-radius: 6px;
+  --base-linehight: 140%;
+}
