@@ -5,6 +5,8 @@ import "./assets/stylesheets/style.scss";
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 
+import servicesList from "./database/servicesList";
+
 const firebaseConfig = {
   apiKey: "AIzaSyCNwElaHMfbwImzobFLaw0KYfjod3DsPVw",
   authDomain: "rdygo-ru.firebaseapp.com",
@@ -21,7 +23,7 @@ const analytics = getAnalytics(app);
 import App from "./template/App";
 
 ReactDOM.render(
-    <App />,
+    <App servicesList={servicesList} />,
     document.getElementById(`root`)
 );
 

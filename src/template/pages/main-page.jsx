@@ -1,11 +1,15 @@
 import React from "react";
 import {Switch, Route, BrowserRouter} from 'react-router-dom';
 
+import Services from "../components/services";
 
-const MainPage = () => {
+
+const MainPage = ({ servicesList }) => {
   return (
     <>
-      <h1 className="roar">hello</h1>
+      <div className="container">
+        <Services servicesList={servicesList} />
+      </div>    
     </>
   );
 };

@@ -7,9 +7,9 @@ import 'firebase/compat/firestore'
 import MainPage from './pages/main-page';
 
 
-const App = () => {
+const App = ({ servicesList}) => {
   return (
-    <MainPage />    
+    <MainPage servicesList={servicesList} />    
   );
 };
 
