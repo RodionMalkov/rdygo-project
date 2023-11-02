@@ -1,0 +1,19 @@
+.header {
+  
+  position: sticky;
+  top: 0;
+  background-color: var(--grey);
+  margin-bottom: 20px;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  &__nav {
+    display: flex;
+    gap: 20px;
+  }
+}

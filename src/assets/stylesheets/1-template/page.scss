@@ -1,4 +1,13 @@
 .page {
+  margin: 0;
   font-family: var(--fonts-regular);
   font-size: 20px;
+  background-color: var(--grey);
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
 }
